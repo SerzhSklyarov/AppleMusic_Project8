@@ -7,14 +7,22 @@
 
 import SwiftUI
 
-struct ModelRadiostation: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct ModelRadioStation: Identifiable, Hashable {
+    let id = UUID()
+    var image: String
+    var title: String
+    var subtitle: String
 }
 
-struct ModelRadiostation_Previews: PreviewProvider {
-    static var previews: some View {
-        ModelRadiostation()
-    }
+extension ModelRadioStation {
+    
+    static let data = [
+        ModelRadioStation(image: "Picture9", title: "Pop", subtitle: "The best hits ever."),
+        ModelRadioStation(image: "classic-fm-logo-large-square-1520936467-list-handheld-0", title: "Classical music", subtitle: "The best Modern Classics."),
+        ModelRadioStation(image: "snoothjazz", title: "Smooth Jazz", subtitle: "Listening now."),
+        ModelRadioStation(image: "Picture5", title: "Rock classics", subtitle: "Listen to the best rock hits."),
+        ModelRadioStation(image: "2Pac", title: "The best rap collection", subtitle: "What's new."),
+        ModelRadioStation(image: "nmdradio", title: "NMD radio", subtitle: "Your radiostation."),
+        ModelRadioStation(image: "Electronic", title: "Electronic music", subtitle: "eep dive into electronic music.")
+    ]
 }
