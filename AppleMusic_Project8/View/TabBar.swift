@@ -20,16 +20,16 @@ var body: some View {
                 .tag(0)
                 .tabItem {
                     
-                    Image(systemName: "square.stack.fill")
-                    Text("Медиатека")
+                    Image(systemName: "music.note")
+                    Text("Library")
                 }
             
-            Text("Радио")
+            RadioView()
                 .tag(1)
                 .tabItem {
                     
                     Image(systemName: "dot.radiowaves.left.and.right")
-                    Text("Радио")
+                    Text("Radio")
                 }
             
             Text("")
@@ -37,7 +37,7 @@ var body: some View {
                 .tabItem {
                     
                     Image(systemName: "magnifyingglass")
-                    Text("Поиск")}
+                    Text("Search")}
         }
         .accentColor(.red)
         MiniPlayer()

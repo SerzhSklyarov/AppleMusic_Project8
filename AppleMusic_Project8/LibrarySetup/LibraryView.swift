@@ -20,16 +20,16 @@ struct LibraryView: View {
                 }
             }
             .environment(\.editMode, .constant(showScreen ? EditMode.active : EditMode.inactive))
-            .navigationTitle("Медиатека")
+            .navigationTitle("Library")
             .toolbar(content: {
                 Button(action: {
                     showScreen.toggle()
                 }, label: {
                     if showScreen {
-                        Text("Править")
+                        Text("Edit")
                             .foregroundColor(.red)
                     } else {
-                        Text("Готово")
+                        Text("Ready")
                             .foregroundColor(.red)
                     }
                 })
