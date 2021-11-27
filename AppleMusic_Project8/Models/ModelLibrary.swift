@@ -17,16 +17,16 @@ extension ModelLibrary {
     
     static let data = [
         
-        ModelLibrary(image: "music.note.list", title: "Плейлисты"),
-        ModelLibrary(image: "music.mic", title: "Артисты"),
-        ModelLibrary(image: "rectangle.stack", title: "Альбомы"),
-        ModelLibrary(image: "music.note", title: "Песни"),
-        ModelLibrary(image: "airplayvideo", title: "Телешоу и фильмы"),
-        ModelLibrary(image: "tv.music.note.fill", title: "Видеоклипы"),
-        ModelLibrary(image: "guitars", title: "Жанры"),
-        ModelLibrary(image: "doc", title: "Сборники"),
-        ModelLibrary(image:  "music.note", title: "Авторы"),
-        ModelLibrary(image: "square.and.arrow.down", title: "Загружено"),
-        ModelLibrary(image: "house", title: "Домашняя коллекция")
+        ModelLibrary(image: "music.note.list", title: "Playlists"),
+        ModelLibrary(image: "music.mic", title: "Artists"),
+        ModelLibrary(image: "rectangle.stack", title: "Albums"),
+        ModelLibrary(image: "music.note", title: "Songs"),
+        ModelLibrary(image: "airplayvideo", title: "TV show and films"),
+        ModelLibrary(image: "tv.music.note.fill", title: "Video clips"),
+        ModelLibrary(image: "guitars", title: "Genres"),
+        ModelLibrary(image: "doc", title: "Collections"),
+        ModelLibrary(image:  "music.note", title: "Authors"),
+        ModelLibrary(image: "square.and.arrow.down", title: "Downloaded"),
+        ModelLibrary(image: "house", title: "Home sharing")
     ]
 }

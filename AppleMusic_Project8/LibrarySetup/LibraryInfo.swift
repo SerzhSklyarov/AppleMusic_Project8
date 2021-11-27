@@ -10,17 +10,17 @@ import SwiftUI
 struct LibraryInfo: View {
     var body: some View {
         VStack {
-            Text("Ищете свою музыку?")
+            Text("Looking for your music?")
                 .font(.title2)
                 .fontWeight(.bold)
             
-            Text("Здесь появится купленная Вами в iTunes Store музыка.")
+            Text("Music you purchase from iTunes Store will appear here.")
                 .font(.title3)
                 .multilineTextAlignment(.center)
                 .padding([.leading, .trailing], 28)
                 .foregroundColor(.secondary)
         }
-        .navigationTitle("Медиатека")
+        .navigationTitle("Library")
         .padding()
         .frame(height: 600)
     }
